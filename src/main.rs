@@ -80,7 +80,7 @@ fn linear_regression(data: Vec<f32>) -> Result<(), Box<dyn Error>> {
         bias -= &sum_matrix;
     }
 
-    // By default, using this dataset the result should be: 85.69071 * x + 0.6395355
+    // By default, using this dataset the result should be: 43.436935 * x + -1.2420014
     println!("{:?} * x + {:?}", weights[0], bias[0]);
 
     Ok(())
